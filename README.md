@@ -2,7 +2,7 @@
 
 ## Description & Background Info
 A github page to highlight the Raspberry Pi Zero W portable emulator in a Gameboy color shell.
-This project has been in the works for a year, and the final result is a functional portable emulator and computer!
+This project has been in the works for years, and the final result is a functional portable emulator and computer!
 
 ## Features of the Project
 - Full support for GameBoy, Gameboy Color, NES, SUPER-NES and other retro game consoles with RetroPi
@@ -14,8 +14,7 @@ This project has been in the works for a year, and the final result is a functio
 - Project Cost was ~135 Canadian Dollars (100USD)
 
 ## Be Warned...
-This guide includes general assembly tips, but is not a full guide as I don't have the resources to effectively guide someone through ever step of construction. Its a long project, and requires a lot of patience and planning ahead especially come final assembly.
-
+This guide includes general assembly tips, but is not a full guide as I don't have the resources to effectively guide someone through ever step of construction (due to lack of foresight and time constraints). Believe in yourself, accept you will make mistakes and it turn out just fine!
 
 ## Acquiring Hardware
 ### Crucial Components
@@ -32,27 +31,36 @@ This guide includes general assembly tips, but is not a full guide as I don't ha
 ### Not So Obvious Components
 1. Wire. Lots of it. I used 22 AWG wire however it was not solidcore. This made assembly a royal pain in the ass as every connection need the stranded wire to be compromised in order to create reliable solder joints. Also two different colours really help with assembly, and personally I believe the aesthetic is nice.
 2. Heat-shrink tubing, while not required it comes in handy during final assembly when some wires need to be shorter or longer in some sections.
-3. 
 
 ## Tools
-- Multimeter
-- Soldering Iron, Fine tip preferably & Solder
-- Wire Strippers
-- Fine tip Needle Nose Pliers
-- Dremel Tool with Varying Bits
-- Utility knife
+- Multimeter: Verify continuity and troubleshoot circuits.
+- Soldering Iron with a Fine tip: I did not have this prior to doing some of the assembly, it improved my solder joints significantly. 
+- Wire Strippers: Useful since you'll be manipulating many wires.
+- Fine tip Needle Nose Pliers or Tweezers: You will drop things, or need to adjust very small things especially come final assembly
+- Dremel Tool with Varying Bits: To remove the parts of the original shell that interfere with the installation of other components.
+- Utility knife: Cutting small PCB boards 
 - Screwdriver (Tri-wing Y Tip, Very small slotted screwdriver)
-- Micro USB Power adaptor
+- Micro USB Power adaptor: For testing the pi and its functionality before the battery or charging system is installed.
+- Helping Hands: More hands = Better
 
-##
-
-
-........ Work in progress, were getting there
-
-
-## Code
-`CODE`
+That should be all the tools I deemed useful while finishing this project. How well talk about the prep work that should be done before final assembly.
+# PREP WORK
+## Raspberry Pi Zero Setup
+In order for the Raspberry Pi to function as expected with the TFT display there are some software tweaks that need to be preformed after installing RetroPie (can be found here).
 
 
-[Link](url) and ![Image](src)
+## "Dry" Test
+Before even thinking about installing everything into the shell, we need to make sure that mostly all the major components work as expected and that crucial software features also work.
+In this test I will be using all these components simultaneously:
+- Raspberry Pi Zero
+- Controller Board
+- PowerBoost 1000
+- Battery
+- TFT Display
 
+I bought these components with pins pre soldered or I soldered them myself to use on a modular breadboard. All the components were connected using jumper wires, and the Pi was powered using a USB-A to USB-Micro B cable. 
+
+[picture here?]
+
+# Assembly
+........ Documentation is a work in progress, were getting there
